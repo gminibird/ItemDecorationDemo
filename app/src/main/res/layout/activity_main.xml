@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_simple_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SimpleDivider"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_custom_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomDivider"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_grid_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridSpace"
+        android:textAllCaps="false"/>
+
+
+    <Button
+        android:id="@+id/btn_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TableDivider"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_stick_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StickHeader"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_staggered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Staggered"
+        android:textAllCaps="false"/>
+</LinearLayout>
